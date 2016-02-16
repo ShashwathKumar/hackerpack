@@ -1,0 +1,50 @@
+  header{
+      text-align: left;  
+      color: white;
+      font-size: 36px;
+      font-family: Copperplate Gothic light;
+    }
+ul{
+      text-align: center;
+}
+li{
+    display: inline-flex;  
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 20px 10px 20px;  
+}
+h1{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: black;
+    margin-left: 80px;
+    font-size: 100px;
+    background: rgba(0,0,0,0.5);      
+}
+h3{
+    font-size: 25px;
+}
+h4{
+    font-size: 19px;
+    text-decoration: underline;
+    font-weight: bold !important;
+}
+img{
+    
+}
+a:link{
+    color:antiquewhite;
+    text-decoration: none;
+}
+a:visited{
+    color:aquamarine;
+}
+a:hover{
+    color:aqua;
+}
+a:active{
+    color:aliceblue;
+}
+body{
+    background-color: black;
+}
