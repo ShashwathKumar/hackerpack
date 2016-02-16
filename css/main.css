@@ -4,6 +4,11 @@
       font-size: 36px;
       font-family: Copperplate Gothic light;
     }
+header img{
+    border: 8px;
+    border-color: antiquewhite;
+    border-radius: 5%;
+}
 ul{
       text-align: center;
 }
@@ -21,30 +26,44 @@ h1{
     font-size: 100px;
     background: rgba(0,0,0,0.5);      
 }
-h3{
-    font-size: 25px;
-}
+
 h4{
     font-size: 19px;
     text-decoration: underline;
     font-weight: bold !important;
 }
-img{
-    
-}
 a:link{
     color:antiquewhite;
     text-decoration: none;
+    font-size: 25px;
+    -webkit-transition: font-size 0.25s;
 }
 a:visited{
     color:aquamarine;
 }
 a:hover{
     color:aqua;
+    font-size: 26px;
 }
 a:active{
     color:aliceblue;
 }
 body{
     background-color: black;
+}
+body img{
+    border-color:aquamarine;
+    border: 6px;
+    border-radius: 5%;
+    opacity: 0.55;
+    -webkit-transition: opacity 0.7s;
+}
+body img:hover{
+    opacity: 1;
+}
+footer{
+    background: #111;
+    text-align: center;
+    margin: 0 100px;
+    padding: 0px 30px;
 }
