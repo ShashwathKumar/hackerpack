@@ -92,10 +92,10 @@ footer{
     padding: 0px 30px;
 }
 @media (max-width: 500px) {
-      li {
+    li {
         display: block;
         text-decoration: none;
-      }
+    }
     header{
         width: 96%;   
     }
