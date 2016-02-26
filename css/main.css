@@ -24,6 +24,7 @@ li{
 h1{
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-width: black;
+    color: aliceblue;
     text-decoration: none;
     margin-left: 80px;
     font-size: 100px;
