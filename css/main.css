@@ -1,5 +1,6 @@
-  header{
-      text-align: left;  
+header{
+      text-align: left;
+      text-decoration: none;
       color: white;
       font-size: 36px;
       font-family: Copperplate Gothic light;
@@ -8,6 +9,7 @@ header img{
     border: 8px;
     border-color: antiquewhite;
     border-radius: 5%;
+    text-decoration: none;
 }
 ul{
       text-align: center;
@@ -22,6 +24,7 @@ li{
 h1{
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-width: black;
+    text-decoration: none;
     margin-left: 80px;
     font-size: 100px;
     background: rgba(0,0,0,0.5);      
@@ -32,24 +35,45 @@ h4{
     text-decoration: underline;
     font-weight: bold !important;
 }
-a:link{
+h3 a:link{
     color:antiquewhite;
     text-decoration: none;
     font-size: 25px;
     -webkit-transition: font-size 0.25s;
 }
-a:visited{
+h3 a:visited{
     color:aquamarine;
 }
-a:hover{
+h3 a:hover{
     color:aqua;
     font-size: 26px;
 }
-a:active{
+h3 a:active{
     color:aliceblue;
 }
+
+h4 a:link{
+    color:antiquewhite;
+    text-decoration: none;
+    font-size: 22px;
+    -webkit-transition: font-size 0.25s;
+}
+h4 a:visited{
+    color:#00cc99;
+}
+h4 a:hover{
+    color: #00cc50;
+    font-size: 23px;
+}
+h4 a:active{
+    color:#00cc50;
+}
+
 body{
     background-color: black;
+}
+body a{
+    text-decoration: none;
 }
 body img{
     border-color:aquamarine;
@@ -68,14 +92,18 @@ footer{
     padding: 0px 30px;
 }
 @media (max-width: 500px) {
-      li {
+    li {
         display: block;
         text-decoration: none;
-      }
+    }
     header{
         width: 96%;   
     }
     h1{
         font-size: 90%;
     }
+<<<<<<< HEAD
     }
+=======
+}
+>>>>>>> master
