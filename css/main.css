@@ -67,3 +67,15 @@ footer{
     margin: 0 100px;
     padding: 0px 30px;
 }
+@media (max-width: 500px) {
+      li {
+        display: block;
+        text-decoration: none;
+      }
+    header{
+        width: 96%;   
+    }
+    h1{
+        font-size: 90%;
+    }
+    }
