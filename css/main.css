@@ -21,6 +21,10 @@ li{
     text-align: center;
     padding: 10px 20px 10px 20px;  
 }
+li img{
+    height: 200px;
+    width: 300px;
+}
 h1{
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-width: black;
@@ -30,7 +34,12 @@ h1{
     font-size: 100px;
     background: rgba(0,0,0,0.5);      
 }
-
+h2{
+    color: lightblue;
+    margin-left: 180px;
+    background: rgba(0,0,0,0.5);
+    font-size: 45px;
+}
 h4{
     font-size: 19px;
     text-decoration: underline;
